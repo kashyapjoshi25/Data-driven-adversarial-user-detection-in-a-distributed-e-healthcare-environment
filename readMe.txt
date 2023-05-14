@@ -4,15 +4,12 @@
 -Editor Used
  Google Colab
 
--For Pre-Processed Dataset Files
- Already provided in the project zip
- 
 -To Create the Pre-Processed File, Follow the Below Steps:-
   1) Open Google Colab or any other notebook( Recommended: Google Colab)
 
-  2) Upload the dataset(dataset.csv) file in google drive(While uploading the file on google drive, directly upload the file in google drive without changing the name and do not put the file in any folder). "Dataset.csv" already provided in the project zip
+  2) Upload the dataset(dataset.csv) file in google drive(While uploading the file on google drive, directly upload the file in google drive without changing the name and do not put the file in any folder). "diab_clea_version.csv" 
 
-  3)After uploading, open the preprocessing.ipynb file in the notebook and fire the run-all command(For Google Colab command is "Ctrl+F9" for run all) 
+  3)After uploading, open the Data_Preprocessing.ipynb file in the notebook and fire the run-all command(For Google Colab command is "Ctrl+F9" for run all) 
 
   4)After Step-3 completion, you will get four files (Named:y_train.npy,y_test.npy,train_data.npy,test_data.npy)
 
@@ -22,7 +19,7 @@
 
 1)Upload four files (Named:y_train.npy,y_test.npy,train_data.npy,test_data.npy) on google drive(While uploading do not change the name and do not put in any folder)
 
-2)Open NS_Project.ipynb file in python notebook(Recommended: Google Colab)
+2)Open Finding_Anomaly.ipynb file in python notebook(Recommended: Google Colab)
 
 3)After Uploading fire run-all command(For Google Colab command is "Ctrl+F9" for run all).
 
